@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h4 {
+  color: #007bff;
+  text-align: center;
+}
+.card h5 {
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.card hr {
+  border-top: 1px solid #ddd;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-links img:hover {
+  background-color: gray;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile-wrapper h4 {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 15px;
+  }
+}
